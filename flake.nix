@@ -266,7 +266,7 @@
               clang.enable = overrideable isMaximal;
               sql.enable = overrideable isMaximal;
               rust = {
-                enable = overrideable isMaximal;
+                enable = overrideable true;
                 crates.enable = overrideable true;
               };
               ts.enable = overrideable isMaximal;
